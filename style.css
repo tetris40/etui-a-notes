@@ -1,0 +1,207 @@
+
+.bloc1{
+  
+  position: absolute;
+  float: left;
+  width: 20%;
+  vertical-align: top;
+
+}
+.bloc2{
+  
+  position: relative z-index:2;
+  float: right;
+  vertical-align: top;
+}
+
+.listeMenu > li {
+
+  background: #BD8D46 ;
+  color: #fff ;
+  border: 3px ridge #600;
+  margin-bottom: 20%;
+  margin-left: 20%;
+  border-radius: 5px 5px 5px 5px;
+  font-size:1.1em;
+  font-weight: bold;
+
+}
+
+.boutonMenu {
+
+  display: block ;
+  background: #BD8D46 ;
+  color: #fff ;
+  text-align: center ;
+  text-decoration: none ;
+  padding: 4px 0;
+  margin: 10px;
+
+}
+
+.listeMenu li a:hover, .listeMenu li a:focus, .listeMenu li a:active {
+  background: #BD8D46  ;
+  text-decoration: underline ;
+
+}
+
+.boutonMenu:hover {
+
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+
+}
+.formulaire{
+  color: white;
+  margin-left: 65%;
+  display: inline-block;
+  padding-top: 1%;
+  
+}
+.couleur{
+  background-color: black;
+
+}
+.contenu {
+  color: white;
+  border: 1px solid #000000;
+  width: 40%;
+  height: 250px;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding : 10px 10px 10px 10px;
+ background-image: linear-gradient(to right bottom, #AE642D, #8B6C42, #C8AD7F, #AFA77B);
+border-radius: 5px 5px 5px 5px;
+}
+.image{
+  margin-left:110%;
+  margin-top: -45%;
+}
+.image1{
+  margin-top: -40%;
+  margin-left: -60%;
+}
+
+.contenu1 {
+  color: white;
+  border: 1px solid #000000;
+  width: 40%;
+  height: 250px;
+  margin-left: 45%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding : 10px 10px 10px 10px;
+ background-image: linear-gradient(to right bottom, #AE642D, #8B6C42, #C8AD7F, #AFA77B);
+border-radius: 5px 5px 5px 5px;
+}
+
+.titreContenu {
+
+text-align : center;
+}
+.titreContenu1{
+
+text-align : center;
+} {
+
+text-align : center;
+}
+.titrePrincipal {
+
+text-align: center;
+padding-top: 3%;
+text-shadow: 2px 2px #b9b9b9;
+}
+
+.titrePrincipal:hover {
+
+text-align: center;
+padding-top: 3%;
+color: #ff0000;
+text-shadow: 2px 2px #000000;
+
+}
+.titreMenu{
+
+text-align : center;
+text-shadow: 1px 1px #b9b9b9;
+}
+.titreMenu:hover{
+
+text-align : center;
+color: #ff0000;
+text-shadow: 1px 1px #000000;
+}
+
+.menu {
+
+float: left;
+color: black;
+border: 1px solid #000000;
+width: 15%;
+height: 599px;
+ background-image: url(images/guitareessai2.jpg);
+ background-repeat: no-repeat;
+border-radius: 5px 5px 5px 5px;
+}
+
+.listeMenu {
+
+width: 180px;
+ list-style: none;
+ margin: 0;
+ padding:0;
+
+
+}
+
+
+section {
+
+  background-image: url(images/fond2.jpg);
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+
+footer {
+
+border: 1px solid #000000;
+background: #000000;
+color: #ffffff;
+}
+
+footer>p {
+
+margin-left: 10%;
+padding-top: 1%;
+padding-bottom: 1%;
+}
+
+form{
+  margin-left: 30%;
+}
+.video{
+
+  color: white;
+  border: 1px solid #000000;
+  width: 70%;
+  height: 250px;
+  margin-left: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding : 10px 10px 10px 10px;
+ background-image: linear-gradient(to right bottom, #AE642D, #8B6C42, #C8AD7F, #AFA77B);
+border-radius: 5px 5px 5px 5px;
+}
+.video iframe{
+  margin-left: 10%;
+  padding-top: 2%;
+
+ /*page cours*/
+
+
+ 

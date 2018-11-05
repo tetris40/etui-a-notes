@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+    <script language="JavaScript">
+    <!--
+    //PLF-http://www.monjavascript.net/
+    var position=0;
+    var msg="Ici, vous trouverez toutes les informations concernant les cours, les dernieres nouvelles, les reports de cours etc...";
+    var msg="     "+msg;
+    var longue=msg.length;
+    var fois=(70/msg.length)+1;
+    for(i=0;i<=fois;i++) msg+=msg;
+    function textdefil() {
+    document.form1.deftext.value=msg.substring(position,position+70);
+    position++;
+    if(position == longue) position=0;
+    setTimeout("textdefil()",100); 
+    }
+    window.onload = textdefil;
+    //-->
+    </script>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>L"etui a notes</title>
+
+      <link rel="stylesheet" type="text/css" title="stylesheet" href="style.css">
+
+  </head>
+
+  <body>
+
+  <section>
+  <header>
+    <div class="bloc1">
+          <img src="images/logo.png" alt="logo">
+    </div>
+      <div class="bloc2">
+        <img src="images/banniere1.png" alt="banniere">
+      </div>
+      
+  </header>
+        <div class="couleur">
+        <div class="formulaire">
+          <label for="uname"><b>Login</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+        </div>
+      </div>
+
+  
+    <form name="form1">
+    <div align="center"> 
+    <input type="text" name="deftext" size=70>
+    </div>
+    </form>
+
+
+    <nav class="menu">
+      <h3 class="titreMenu">Menu Principal</h3>
+       <ul class="listeMenu">
+         <li><a class="boutonMenu" href="index.html">Accueil</a></li>
+         <li><a  class="boutonMenu" href="page2.html">biographie</a></li>
+         <li><a  class="boutonMenu" href="page3.html">cours</a></li>
+         <li><a  class="boutonMenu" href="page4.html">espace eleves</a></li>
+         <li><a  class="boutonMenu" href="page5.html">forum</a></li>
+         <li><a  class="boutonMenu" href="page7.html">contact</a></li>
+       </ul>
+    </nav>
+
+
+      <div class="contenu">
+
+    <h2  class="titreContenu">Qu 'est que c est ?</h2>
+   <p> L'Etui à notes est une association qui se veut ludique et qui vous apportera un apprentissage à votre rythme et adapté a votre niveau.<p>Des cours Théoriques mais aussi pratiques vous seront dispensés.</p> Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la </p>
+       <div class="image">
+          <img src="images/partoche1.jpg" alt="partoche">
+        </div>
+      </div>
+     <div class="contenu1">
+
+    <h2  class="titreContenu1">VIDEO EXEMPLE</h2>
+   <p> Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+      <div class="image1">
+          <img src="images/partoche.jpg" alt="partoche">
+        </div>
+    </div>
+
+
+
+  <footer >
+    <p>tous droits resérvés ©</p>
+  </footer>
+  </section>
+
+    <script src="js/main.js" type="text/javascript"></script>
+
+  </body>
+
+</html>
